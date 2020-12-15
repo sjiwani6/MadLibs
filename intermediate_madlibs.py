@@ -1,6 +1,6 @@
 print("Welcome to MadLibs! In this program, you'll be prompted to enter certain words. At the end, "
     "a passage will be printed, filled with the words that you have inputted.")
-flag = input("Ready to get started? Type 'yes' for yes and 'quit' if not! ")
+flag = input("Ready to get started? Type 'yes' for yes and 'no' if not! ")
 
 while flag == "yes":
     adjective1 = input("Enter an adjective: ")
