@@ -5,7 +5,7 @@ print("Welcome to MadLibs! In this program, you'll be prompted to enter certain 
 flag = input("Ready to get started? Type 'yes' for yes and 'no' if not! ")
 
 while flag == "yes":
-    selection = input("You have 2 different types of MadLibs available. Type '1' for Vacation, '2' for Short Poem, and '0' to exit! ")
+    selection = input("You have 3 different types of MadLibs available. Type '1' for Vacation, '2' for Short Poem, '3' for Favorite Food, and '0' to exit! ")
     if selection == "1":
         # execute vacation code
         adjective1 = input("Enter an adjective: ")
@@ -63,6 +63,15 @@ while flag == "yes":
         print("Welcome to", place)
         print("It's great to have you here!") 
         print("-----------------------------------")
+    elif selection == '3':
+        food1 = input("Enter one of your favorite foods: ")
+        food2 = input("Enter another one of your favorite foods: ")
+        food3 = input("Enter yet another one of your favorite foods: ")
+        food4 = input("Enter one last one of your favorite foods: ")
+
+        foodList = [food1, food2, food3, food4]
+        for f in foodList:
+            print("I just LOVE eating", f)
     elif selection == "0" :
         print("Thanks for playing!")
         break;
