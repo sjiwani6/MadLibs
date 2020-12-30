@@ -9,6 +9,5 @@ It's great to have you here!
 """
 
 # TODO: Declare 4 variables where we get the value from the user
-# Here's an example
 
 # TODO: Now print the poem that we haave above, with whatever input we had gotten from the user
